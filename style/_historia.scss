@@ -1,0 +1,148 @@
+.clients {
+    min-height: 140vh;
+    width: 100%;
+    background-image: linear-gradient(to top, rgb(48, 46, 46, 0.3), rgba(248, 248, 248, 0));
+  
+    .text {
+      text-align: left;
+      margin-left: 200px;
+      margin-bottom: -370px;
+  
+      h2 {
+        font-size: 2.5rem;
+        margin-top: 5rem;
+        font-weight: bolder;
+        margin-bottom: 1rem;
+        width: 40%;
+  
+        &::before {
+          content: "“";
+          font-family: "ABeeZee", serif;
+          font-style: italic;
+          font-size: 16rem;
+          color: rgba(0, 0, 0, 0.1);
+          position: absolute;
+          top: 5px;
+          margin-top: -50px;
+          margin-left: -110px;
+        }
+      }
+  
+      p {
+        font-size: 1.1rem;
+        margin-bottom: 70px;
+      }
+    }
+  
+    .containerCards {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 40px;
+      padding: 0px 50px 0px 50px;
+  
+      .left {
+        margin-top: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+        width: 40%;
+        margin-right: 20px;
+  
+        .vertical {
+          width: 300px;
+          height: 450px;
+          margin-top: 20px;
+        }
+      }
+  
+      .right {
+        display: flex;
+        flex-direction: column;
+        width: 45%;
+        padding-top: 200px;
+  
+        .horizontal {
+          width: 400px;
+          height: 280px;
+        }
+        .retangular {
+          margin-top: 20px;
+          width: 330px;
+          height: 250px;
+        }
+      }
+  
+      .card {
+        display: flex;
+        flex-direction: column;
+        background-color: #ffff;
+        padding: 40px 20px 10px 30px;
+        margin-bottom: 20px;
+        box-shadow: 2px 2px 6px 2px rgba(0, 0, 0, 0.4);
+        border-radius: 10px;
+        text-align: left;
+        min-width: 200px;
+  
+        .cardContent {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          height: 100%;
+
+          .person{
+            display: flex;
+            align-items: center;
+            padding: 30px;
+
+            .img{
+                width: 60px;
+                height: 60px;
+                overflow: hidden;
+                border-radius: 100px;
+            }
+        .text-content{
+            margin-left: 20px;
+        }
+            h4{
+                font-size: 1.2rem;
+                font-weight: bold;
+        }
+            span{
+                font-size: 0.8rem;
+                color: grey;
+                margin-top: 10px;
+        }
+        }
+    
+  
+          q {
+            font-size: 0.9rem;
+            line-height: 2rem;
+            padding-left: 30px;
+            position: relative;
+  
+            &::before {
+              content: "“";
+              font-family: "ABeeZee", serif;
+              font-style: italic;
+              font-size: 4rem;
+              color: rgba(0, 0, 0, 0.2);
+              position: absolute;
+              top: 10px; /* Ajuste conforme necessário */
+              left: -10px; /* Ajuste conforme necessário */
+            }
+          }
+        }
+  
+        h3 {
+          font-size: 2rem;
+          margin-bottom: 1.5rem;
+          font-weight: bolder;
+          color: $cinza;
+        }
+      }
+    }
+  }
+  

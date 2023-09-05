@@ -1,0 +1,25 @@
+.fotos {
+    .text-content {
+      margin: 0px 0px 80px 0;
+      text-align: center;
+  
+      h2 {
+        font-size: 3rem;
+        font-weight: bolder;
+      }
+    }
+  
+    .listPhotos {
+      width: 80%;
+      display: flex;
+      justify-content: space-between;
+      margin-right: 60px;
+  
+      .gymPhoto {
+        width: 35%; /* Defina o tamanho desejado */
+        height: auto;
+        margin-right: 10px; /* Adicione espaço entre as imagens */
+      }
+    }
+  }
+  
