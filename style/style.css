@@ -1,0 +1,91 @@
+.navegador {
+  background-color: #302e2e;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  height: 10vh;
+  z-index: 999;
+  width: 100%;
+}
+.navegador img {
+  margin-left: 20px;
+  width: 7%;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.navegador ul {
+  list-style: none;
+  display: flex;
+}
+.navegador ul li {
+  margin-right: 25px;
+  font-size: 20px;
+  color: #f0f50a;
+}
+.navegador ul li button {
+  width: 120px;
+  height: 30px;
+  color: #302e2e;
+  border-radius: 999px;
+  font-size: 18px;
+  border: 3px solid #f5f4f4;
+  background-color: #ffffff;
+}
+
+.inicio {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../assets/conceito-de-levantamento-de-peso-com-haltere.jpg);
+  background-size: cover;
+}
+.inicio .text-content {
+  color: #ffffff;
+  text-align: center;
+}
+.inicio .text-content h1 {
+  font-size: 70px;
+  margin-bottom: 15px;
+}
+.inicio .text-content h3 {
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+.inicio .text-content button {
+  width: 250px;
+  height: 50px;
+  color: #ffffff;
+  border-radius: 999px;
+  border: 1px solid #777676;
+  font-size: 18px;
+  background-color: #302e2e;
+}
+
+.inicio .text-content button:hover {
+  background-color: #777676;
+  transition: 0.5s;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+section {
+  position: relative;
+  top: 10vh;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  flex-direction: column;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}/*# sourceMappingURL=style.css.map */

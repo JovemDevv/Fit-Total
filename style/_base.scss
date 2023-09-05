@@ -1,0 +1,15 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+section{
+    position: relative;
+    top: 10vh;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    flex-direction: column;
+}
