@@ -24,8 +24,12 @@
       
         li {
         margin-right: 25px;
-        font-size: 20px;
+        font-size: 16px;
+
+        a{
         color: $amarelo;
+        text-decoration: none;
+      }
 
     button {
             width: 120px;
