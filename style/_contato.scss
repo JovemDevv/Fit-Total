@@ -1,0 +1,73 @@
+.contato{
+    height: 80vh;
+    margin-top: 80px;
+    margin-bottom: 300px;
+
+    .text-content{
+    
+    
+        h2 {
+        font-size: 3rem;
+        font-weight: bolder;
+        }
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 80px;
+        width: 45%;
+
+        .row{
+            display: flex;
+            margin-bottom: 20px;
+            height: 100%;
+            width: 100%;
+
+            .input-field{
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                margin: 0px 20px 0px 20px;
+
+                input{
+                    padding: 5px;
+                    border-radius: 4px;
+                    width: 100%;
+                    font-size: 1.2rem;
+                    border: 1px solid black;
+                }
+
+                label{
+                    font-size: 1.2rem;
+                    margin-bottom: 10px;
+                    font-weight: bold;
+                    color: rgb(0, 0, 0, 0.5);
+                }
+                textarea{
+                    padding: 5px;
+                    border-radius: 4px;
+                    width: 100%;
+                    resize: vertical;
+                    font-size: 1.2rem;
+                    border: 1px solid black;
+                }
+            }
+        }
+
+        .buttonForm{
+           
+            button{
+                font-size: 1.3rem;
+                padding: 13px;
+                border-radius: 6px;
+                background-color: $cinzaM;
+                color: $branco;
+                border: none;
+            }
+        }
+    }
+
+}

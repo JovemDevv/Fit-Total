@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>FitTotal</title>
 </head>
 <body>
@@ -15,11 +16,20 @@
         <nav class="navegador">
             <img src="./assets/logo.png" alt="Logo da página">
             <ul>
-                <li>Inicio</li>
-                <li>Benefícios</li>
-                <li>Clientes</li>
-                <li>Sobre a academia</li>
-                <li>Contato</li>
+                <li>
+                    <a href="#inicio">Inicio</a>
+                </li>
+                <li>
+                    <a href="#beneficios" >Benefícios</a>
+                </li>
+                <li>
+                    <a href="#testimonial" >Clientes</a>
+                </li>
+                <li>
+                    <a href="#conheca">Sobre a academia</a></li>
+                <li>
+                    <a href="#contato">Contato</a>
+                </li>
                 <li><button>Entrar</button></li>
             </ul>
         </nav>
@@ -31,7 +41,7 @@
                 
                 <h1>Bem-vindo a FitTotal</h1>
                 <h3>Essa é a academia para você!</h3>
-                <button>Conheça a academia</button>
+                <a href="#conheca"><button>Conheça a academia</button></a>
             </div>
         </section>
         <section class="beneficios" id="beneficios">
@@ -190,9 +200,104 @@
             </div>
         </section>
         
-        <section id="contato">
-            <h2>Fale conosco</h2>
+        <section id="contato" class="contato">
+            <div class="container">
+                <div class="text-content">
+                    <h2>Fale conosco</h2>
+                </div>
+                <form>
+                    <div class="row">
+                        <div class="input-field">
+                            <label for="name">Nome:</label>
+                            <input id="name" name="name" placeholder="Seu nome..." />
+                        </div>
+                        <div class="input-field">
+                            <label for="lastName">Sobrenome:</label>
+                            <input id="lastName" name="lastName" placeholder="Seu sobrenome..." />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field">
+                            <label for="email">Email:</label>
+                            <input id="email" name="email" placeholder="Seu email..." />
+                        </div>
+                        <div class="input-field">
+                            <label for="phone">Telefone:</label>
+                            <input id="phone" name="phone" maxlength="11" placeholder="(xx) x xxxx-xxxx">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field">
+                            <label for="message">Sua mensagem:</label>
+                            <textarea name="message" id="message"  rows="8" placeholder="Escreva sua mensagem..."></textarea>
+                        </div>
+                    </div>
+                    <div class="buttonForm">
+                        <button type="submit">Enviar mensagem</button>
+                    </div>
+                </form>
+            </div>
         </section>
     </main>
+    <footer>
+        <div class="rowFooter">
+            <div class="logoFooter">
+                <img src="./assets/logo.png" alt="logo" />
+            </div>
+            <div class="footerContent">
+
+                <div class="links">
+                    <h3>Links</h3>
+                        <ul>
+                            <li>
+                                <a href="#inicio">Inicio</a>
+                            </li>
+                            <li>
+                                <a href="#beneficios" >Benefícios</a>
+                            </li>
+                            <li>
+                                <a href="#testimonial" >Clientes</a>
+                            </li>
+                            <li>
+                                <a href="#conheca">Sobre a academia</a></li>
+                            <li>
+                                <a href="#contato">Contato</a>
+                            </li>
+                            <li>Entrar</li>
+                        </ul>
+                </div>
+                
+                <div class="contatoFooter">
+                    <h3>Nosso contato</h3>
+                    <ul>
+                        <li>
+                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                            contato@fittotal.com
+                        </li>
+                        <li>
+                            <i class="fa fa-phone-square" aria-hidden="true"></i>
+                            (99) 9 9999-9999
+                        </li>
+                        <li>
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                            Rio de Janeiro, RJ
+                        </li>
+                    </ul>
+                    <ul class="socialMedia">
+                        <li>
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                        </li>
+                        <li>
+                            <i class="fa fa-facebook-official" aria-hidden="true"></i> 
+                        </li>
+                        <li>
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

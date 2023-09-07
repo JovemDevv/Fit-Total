@@ -21,8 +21,11 @@
 }
 .navegador ul li {
   margin-right: 25px;
-  font-size: 20px;
+  font-size: 16px;
+}
+.navegador ul li a {
   color: #f0f50a;
+  text-decoration: none;
 }
 .navegador ul li button {
   width: 120px;
@@ -62,15 +65,23 @@
   border: 1px solid #777676;
   font-size: 18px;
   background-color: #302e2e;
+  cursor: pointer;
 }
 
 .inicio .text-content button:hover {
   background-color: #777676;
   transition: 0.5s;
+  cursor: pointer;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 10vh;
 }
 
 body {
   font-family: "Open Sans", sans-serif;
+  overflow-x: hidden;
 }
 
 section {
@@ -285,6 +296,7 @@ section {
 
 .conheca {
   height: 80vh;
+  margin-bottom: 150px;
 }
 .conheca .text-content {
   margin: 30px 0px 80px 0;
@@ -304,6 +316,7 @@ section {
   display: flex;
   justify-content: space-between;
   width: 80%;
+  margin-right: 50px;
 }
 .conheca .cards .card {
   display: flex;
@@ -337,7 +350,7 @@ section {
 }
 .fotos .text-content h2 {
   font-size: 3rem;
-  font-weight: bolder;
+  font-weight: 900;
 }
 .fotos .listPhotos {
   width: 80%;
@@ -349,6 +362,107 @@ section {
   width: 35%; /* Defina o tamanho desejado */
   height: auto;
   margin-right: 10px; /* Adicione espaço entre as imagens */
+}
+
+.contato {
+  height: 80vh;
+  margin-top: 80px;
+  margin-bottom: 300px;
+}
+.contato .text-content h2 {
+  font-size: 3rem;
+  font-weight: bolder;
+}
+.contato form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+  width: 45%;
+}
+.contato form .row {
+  display: flex;
+  margin-bottom: 20px;
+  height: 100%;
+  width: 100%;
+}
+.contato form .row .input-field {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0px 20px 0px 20px;
+}
+.contato form .row .input-field input {
+  padding: 5px;
+  border-radius: 4px;
+  width: 100%;
+  font-size: 1.2rem;
+  border: 1px solid black;
+}
+.contato form .row .input-field label {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.5);
+}
+.contato form .row .input-field textarea {
+  padding: 5px;
+  border-radius: 4px;
+  width: 100%;
+  resize: vertical;
+  font-size: 1.2rem;
+  border: 1px solid black;
+}
+.contato form .buttonForm button {
+  font-size: 1.3rem;
+  padding: 13px;
+  border-radius: 6px;
+  background-color: #777676;
+  color: #ffffff;
+  border: none;
+}
+
+footer {
+  height: 40vh;
+  background-color: rgb(6, 6, 17);
+  width: 100%;
+  padding: 60px 60px 0px 60px;
+}
+footer img {
+  width: 150%;
+  margin-right: -500px;
+}
+footer .rowFooter {
+  display: flex;
+  justify-content: flex-start;
+}
+footer .rowFooter li {
+  color: #ffffff;
+  margin-bottom: 5px;
+  list-style-type: none;
+}
+footer .rowFooter li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+footer .rowFooter li i {
+  color: #f0f50a;
+  margin-right: 5px;
+}
+footer .rowFooter h3 {
+  color: #ffffff;
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+}
+footer .rowFooter .footerContent {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+footer .rowFooter .contatoFooter .socialMedia {
+  display: flex;
+  justify-content: space-between;
 }
 
 * {

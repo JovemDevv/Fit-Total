@@ -1,5 +1,11 @@
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 10vh;
+}
+
 body{
     font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
 }
 section{
     position: relative;

@@ -1,0 +1,53 @@
+footer{
+    height: 40vh;
+    background-color: rgb(6, 6, 17);
+    width: 100%;
+    padding: 60px 60px 0px 60px;
+
+    img{
+        width: 150%;
+        margin-right: -500px;
+    }
+
+    .rowFooter{
+       
+        display: flex;
+        justify-content: flex-start;
+
+        li{
+            color: $branco;
+            margin-bottom: 5px;
+            list-style-type: none;
+
+            a{
+                text-decoration: none;
+                color: $branco;
+            }
+            
+            i{
+                color: $amarelo;
+                margin-right: 5px;
+            }
+        }
+
+        h3{
+            color: $branco;
+            font-size: 1.3rem;
+            margin-bottom: 20px;
+        }
+
+        .footerContent{
+            display: flex;
+            justify-content: space-evenly;
+            width: 100%;
+        }
+      
+        .contatoFooter{
+
+            .socialMedia{
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+    }
+}

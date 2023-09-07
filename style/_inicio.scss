@@ -28,6 +28,7 @@
             border: 1px solid $cinzaM;
             font-size: 18px;
             background-color: $cinza;
+            cursor: pointer;
         }
     }
 }
@@ -35,4 +36,5 @@
 .inicio .text-content button:hover {
     background-color: $cinzaM;
     transition: 0.5s;
+    cursor: pointer;
 }
