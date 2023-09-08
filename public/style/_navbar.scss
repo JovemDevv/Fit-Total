@@ -42,7 +42,27 @@
         }
       }
   }
+  .menu{
+    display: none;
+  }
 }
 
+@media screen and (max-width: 992px) {
+  .navegador ul{
+    display: none;
 
-      
+  }
+
+  .navegador .menu{
+    font-size: 2.5rem;
+    display:flex;
+    align-items: center;
+    color: $branco;
+    margin-right: 30px;
+    cursor: pointer;
+  }
+
+  .navegador img{
+    width: 20%;
+  }
+}
