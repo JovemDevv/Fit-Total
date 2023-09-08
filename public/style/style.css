@@ -56,6 +56,58 @@
     width: 20%;
   }
 }
+aside {
+  display: none;
+}
+
+.background {
+  display: none;
+}
+
+@media screen and (max-width: 992px) {
+  aside {
+    translate: -280px;
+    height: 90vh;
+    position: fixed;
+    top: 10vh;
+    width: 280px;
+    background-color: #ffffff;
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 40px;
+  }
+  aside ul li {
+    margin-bottom: 20px;
+    text-align: center;
+    border: 3px solid #777676;
+    border-radius: 50px;
+    padding: 20px;
+    width: 180px;
+    background-color: #ffffff;
+  }
+  aside ul li a {
+    text-decoration: none;
+    color: black;
+  }
+  aside ul .buttonSidebar {
+    background-color: #777676 !important;
+  }
+  aside ul .buttonSidebar a {
+    color: #ffffff !important;
+  }
+  .background {
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.6);
+    top: 10px;
+    z-index: 899;
+  }
+}
 .inicio {
   height: 90vh;
   display: flex;
@@ -548,6 +600,10 @@ section {
   margin-top: 80px;
   width: 45%;
 }
+.contato form .error {
+  color: red;
+  padding: 8px;
+}
 .contato form .row {
   display: flex;
   margin-bottom: 20px;
@@ -590,6 +646,41 @@ section {
   border: none;
 }
 
+.adressMap {
+  width: 209vh;
+  margin-top: 400px;
+  margin-bottom: 63px;
+  text-align: center;
+}
+.adressMap h2 {
+  font-size: 3rem;
+  font-weight: bolder;
+  width: 50%;
+}
+.adressMap #map {
+  height: 300px;
+  width: 100%;
+}
+.adressMap .mapFlex {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1000px) {
+  .adressMap {
+    width: 100%;
+    height: 90%;
+  }
+  .adressMap h2 {
+    font-size: 3rem;
+    font-weight: bolder;
+    width: 60%;
+  }
+  .adressMap #map {
+    height: 300px;
+    width: 100%;
+  }
+}
 @media screen and (max-width: 1000px) {
   .contato {
     height: 100%;
@@ -618,6 +709,7 @@ section {
     padding: 5px;
     border-radius: 4px;
     width: 95%;
+    margin-bottom: 50px;
   }
 }
 footer {
