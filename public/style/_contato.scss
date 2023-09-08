@@ -20,6 +20,10 @@
         margin-top: 80px;
         width: 45%;
 
+        .error{
+            color: red;
+            padding: 8px;
+        }
         .row{
             display: flex;
             margin-bottom: 20px;
@@ -72,6 +76,48 @@
 
 }
 
+
+.adressMap{
+    width: 209vh;
+    margin-top: 400px;
+    margin-bottom: 63px;
+    text-align: center;
+
+    h2{
+        
+        font-size: 3rem;
+        font-weight: bolder;
+        width: 50%;
+    }
+    #map {
+        height: 300px;
+        width: 100%;
+        }
+    
+    .mapFlex{ 
+    display: flex;
+    justify-content: center;
+}
+}
+
+@media screen and (max-width: 1000px) {
+    .adressMap {
+        width: 100%;
+        height: 90%;
+    }
+    
+    .adressMap h2 {
+        font-size: 3rem;
+        font-weight: bolder;
+        width: 60%;
+    }
+    
+    .adressMap #map {
+        height: 300px;
+        width: 100%;
+    }
+}
+
 @media screen and (max-width: 1000px){
     .contato {
         
@@ -100,8 +146,10 @@
                     padding: 5px;
                     border-radius: 4px;
                     width: 95%;
+                    margin-bottom: 50px;
                 }
         }
+        
     }
 }
 }
