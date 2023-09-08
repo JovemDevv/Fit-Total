@@ -71,3 +71,38 @@
     }
 
 }
+
+@media screen and (max-width: 1000px){
+    .contato {
+        
+        height: 100%;
+    form{
+        width: 90%;
+        .row{
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 0px;
+
+            .input-field{
+                display: flex;
+                flex-direction: column;
+                
+
+                input{
+                    padding: 5px;
+                    border-radius: 4px;
+                    width: 95%;
+                    font-size: 1.2rem;
+                    border: 1px solid black;
+                }
+                textarea{
+                    padding: 5px;
+                    border-radius: 4px;
+                    width: 95%;
+                }
+        }
+    }
+}
+}
+}
