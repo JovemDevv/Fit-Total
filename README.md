@@ -1,6 +1,6 @@
 # Fit Total 
 
-Este projeto é uma página de destino (landing page) para a Fit Total, uma empresa de fitness e bem-estar. A página foi desenvolvida utilizando HTML, CSS (SCSS), JavaScript e Leaflet.js para exibir um mapa de localização.
+Este projeto é uma página de destino (landing page) e um sistema de academia para a Fit Total, uma empresa de fitness e bem-estar. A página foi desenvolvida utilizando HTML, CSS (SCSS), JavaScript e Leaflet.js para exibir um mapa de localização.
 
 # Projeto Nome do Seu Projeto
 
