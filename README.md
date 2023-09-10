@@ -1,10 +1,7 @@
 # Fit Total 
 
 Nessa primeira parte consiste na criação da Landing Page para a Fit Total, uma empresa de fitness e bem-estar. A página foi desenvolvida utilizando HTML, CSS (SCSS), JavaScript e Leaflet.js para exibir um mapa de localização.
-
-# Projeto Nome do Seu Projeto
-
-Descrição breve do seu projeto.
+Na segunda parte será um sistema aonde o aluno pode comprar produtos da academia e gerenciar sua rotina de treino.
 
 ## Tabela de Conteúdo
 
@@ -68,4 +65,8 @@ Você é bem-vindo(a) para contribuir com este projeto. Sinta-se à vontade para
 
 ## Licença
 Este projeto está licenciado sob a Licença MIT.
+
+## Status
+
+***Em construção***
 
