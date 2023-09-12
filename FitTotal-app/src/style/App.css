@@ -134,17 +134,9 @@ nav img{
     height: 100%;
 }
 
-.card .cardContent .textContent h3{
-    font-size: 1.7rem;
-    font-weight: bolder;
-    color: var(--amarelo);
-    margin-bottom: 8px;
-}
 
-.card .cardContent .textContent p{
-    font-size: 1.1rem;
-    width: 180px;
-}
+
+
 
 .buttonIn button{
     margin-left: 60px;
