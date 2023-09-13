@@ -1,8 +1,7 @@
-import './style/App.css'
 import Header from './components/Header'
 import CardCategories from './components/Card'
 import { useEffect, useState } from 'react'
-import { Grid, Typography, Container } from '@mui/material'
+import { Grid, Typography, Container, Divider } from '@mui/material'
 
 
 
@@ -23,10 +22,11 @@ function App() {
  
   return (
     <>
-      <Header query={query} setQuery={setQuery} />
-
-      <Container maxWidth={"xl"} sx={{mt:4}}>
-        <Typography variant='h4' color={"#3b4046"}>Produtos FitTotal - Categorias</Typography>
+      <Header />
+      <Divider />
+      <Container maxWidth={"xl"} sx={{ mt:4 }}>
+        <Typography variant='h1' color={"primary"}>Produtos FitTotal - Categorias
+        </Typography>
 
         <Grid container spacing={2} mt={5}>
           

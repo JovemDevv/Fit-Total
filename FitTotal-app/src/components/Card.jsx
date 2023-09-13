@@ -20,17 +20,17 @@ function CardCategories({ title }) {
         justifyContent={"space-between"}
         sx={{ height: "100%" }}>
           <Stack direction={"column"}>
-            <Typography variant="h5" color={"#ddda16"}>
+            <Typography variant="h4" color={"secondary.light"}>
               { title }
             </Typography>
-            <Typography variant="body2">
+            <Typography variant="body2" color={"secondary.main"}>
               10 produtos encontrados
               </Typography>
           </Stack>
           <Box sx={{
             height:"40px",
             width:"40px",
-            backgroundColor:"#ddda16be",
+            backgroundColor:"secondary.main",
             borderRadius:2,}}>
               <IconButton sx={{color: "white"}}>
                 <ArrowForwardIosIcon/>
