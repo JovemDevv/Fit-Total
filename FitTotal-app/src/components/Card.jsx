@@ -1,9 +1,15 @@
 import { Typography, Card, Stack, Box, IconButton  } from '@mui/material'
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos'
-
+import {  useNavigate } from "react-router-dom"
 
 // eslint-disable-next-line react/prop-types
-function CardCategories({ title }) {
+function CardCategories({ item }) {
+
+  const navigate = useNavigate()
+
+  function handleClick(){
+    navigate(`/products/${item.url}`)
+  }
   
   return (
     <Card 
@@ -21,7 +27,7 @@ function CardCategories({ title }) {
         sx={{ height: "100%" }}>
           <Stack direction={"column"}>
             <Typography variant="h4" color={"secondary.light"}>
-              { title }
+              { item.title }
             </Typography>
             <Typography variant="body2" color={"secondary.main"}>
               10 produtos encontrados
@@ -32,9 +38,11 @@ function CardCategories({ title }) {
             width:"40px",
             backgroundColor:"secondary.main",
             borderRadius:2,}}>
-              <IconButton sx={{color: "white"}}>
-                <ArrowForwardIosIcon/>
-              </IconButton>
+              
+                <IconButton onClick={handleClick} sx={{color: "white"}}>
+                  <ArrowForwardIosIcon/>
+                </IconButton> 
+              
             </Box>
         </Stack>
               

@@ -1,6 +1,7 @@
-import { AppBar, Container, Toolbar, Box, TextField, InputAdornment, Button, Stack, useTheme, useMediaQuery } from '@mui/material';
+import { AppBar, Container, Toolbar, Box, TextField, InputAdornment, Button, Stack, useTheme, useMediaQuery } from '@mui/material'
 import Logo from '../assets/mstile-150x150.png';
-import SearchIcon from '@mui/icons-material/Search';
+import SearchIcon from '@mui/icons-material/Search'
+import { Link } from "react-router-dom"
 
 function Header() {
   const theme = useTheme()
@@ -13,14 +14,17 @@ function Header() {
             display:"flex", justifyContent:"space-between",
             alignItems:'flex-start',
             marginTop:'20px'
-            }}>
-          <Box component="img"
-            src={Logo}
-            alt='logo da FitTotal'
-            sx={{ 
-                marginTop: "-90px" ,
-                marginLeft: "-90px" }}>
-          </Box>
+            }}
+        >
+          <Link to={"/"}>
+            <Box component="img"
+              src={Logo}
+              alt='logo da FitTotal'
+              sx={{ 
+                  marginTop: "-90px" ,
+                  marginLeft: "-90px" }}>
+            </Box>
+          </Link>
           {/* Não mostrar o elemento na tela so se for menos d md*/}
           { isUpMd && (
             <Stack direction={"row"} spacing={2} width={600} height={55}>
