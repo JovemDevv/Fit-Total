@@ -11,8 +11,6 @@ function Products() {
   let [searchParams, setSearchParams] = useSearchParams() 
   const queryParams = searchParams.get("q")
 
-  console.log(searchParams.get("q"))
-
   useEffect(() => {
     if (categories){
       const filterArray = products.filter(
