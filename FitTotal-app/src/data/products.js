@@ -9,9 +9,9 @@ const products = [
       image: "/src/assets/proteina.jpg",
       listImages: [
         "/src/assets/proteina.jpg",
+        "/src/assets/c&a.jpg",
+        "/src/assets/termogenico.webp",
         "/src/assets/proteina.jpg",
-        "/src/assets/proteina.jpg",
-      "/src/assets/proteina.jpg",
       ],
     },
     {
@@ -23,9 +23,9 @@ const products = [
       image: "/src/assets/proteina.jpg",
       listImages: [
         "/src/assets/proteina.jpg",
+        "/src/assets/c&a.jpg",
+        "/src/assets/termogenico.webp",
         "/src/assets/proteina.jpg",
-        "/src/assets/proteina.jpg",
-      "/src/assets/proteina.jpg",
       ],
     },
     {
@@ -37,9 +37,9 @@ const products = [
       image: "/src/assets/proteina.jpg",
       listImages: [
         "/src/assets/proteina.jpg",
+        "/src/assets/c&a.jpg",
+        "/src/assets/termogenico.webp",
         "/src/assets/proteina.jpg",
-        "/src/assets/proteina.jpg",
-      "/src/assets/proteina.jpg",
       ],
     },
     {
@@ -51,9 +51,9 @@ const products = [
       image: "/src/assets/proteina.jpg",
       listImages: [
         "/src/assets/proteina.jpg",
+        "/src/assets/c&a.jpg",
+        "/src/assets/termogenico.webp",
         "/src/assets/proteina.jpg",
-        "/src/assets/proteina.jpg",
-      "/src/assets/proteina.jpg",
       ],
     },
     {
@@ -65,9 +65,9 @@ const products = [
       image: "/src/assets/proteina.jpg",
       listImages: [
         "/src/assets/proteina.jpg",
+        "/src/assets/c&a.jpg",
+        "/src/assets/termogenico.webp",
         "/src/assets/proteina.jpg",
-        "/src/assets/proteina.jpg",
-      "/src/assets/proteina.jpg",
       ],
     },
     {
@@ -79,9 +79,9 @@ const products = [
       image: "/src/assets/proteina.jpg",
       listImages: [
         "/src/assets/proteina.jpg",
+        "/src/assets/c&a.jpg",
+        "/src/assets/termogenico.webp",
         "/src/assets/proteina.jpg",
-        "/src/assets/proteina.jpg",
-      "/src/assets/proteina.jpg",
       ],
     },
     {
@@ -93,9 +93,9 @@ const products = [
       image: "/src/assets/proteina.jpg",
       listImages: [
         "/src/assets/proteina.jpg",
+        "/src/assets/c&a.jpg",
+        "/src/assets/termogenico.webp",
         "/src/assets/proteina.jpg",
-        "/src/assets/proteina.jpg",
-      "/src/assets/proteina.jpg",
       ],
     },
     {
@@ -107,9 +107,9 @@ const products = [
       image: "/src/assets/proteina.jpg",
       listImages: [
         "/src/assets/proteina.jpg",
+        "/src/assets/c&a.jpg",
+        "/src/assets/termogenico.webp",
         "/src/assets/proteina.jpg",
-        "/src/assets/proteina.jpg",
-      "/src/assets/proteina.jpg",
       ],
     },
     {
@@ -121,9 +121,9 @@ const products = [
       image: "/src/assets/proteina.jpg",
       listImages: [
         "/src/assets/proteina.jpg",
+        "/src/assets/c&a.jpg",
+        "/src/assets/termogenico.webp",
         "/src/assets/proteina.jpg",
-        "/src/assets/proteina.jpg",
-      "/src/assets/proteina.jpg",
       ],
     },
     {
@@ -135,9 +135,9 @@ const products = [
       image: "/src/assets/proteina.jpg",
       listImages: [
         "/src/assets/proteina.jpg",
+        "/src/assets/c&a.jpg",
+        "/src/assets/termogenico.webp",
         "/src/assets/proteina.jpg",
-        "/src/assets/proteina.jpg",
-      "/src/assets/proteina.jpg",
       ],
     },
   
@@ -150,52 +150,10 @@ const products = [
       title: "ThermoBurn XTreme",
       image: "/src/assets/proteina.jpg",
       listImages: [
+        "/src/assets/proteina.jpg",
+        "/src/assets/c&a.jpg",
         "/src/assets/termogenico.webp",
-        "/src/assets/termogenico.webp",
-      "/src/assets/termogenico.webp",
-      "/src/assets/termogenico.webp",
-      ],
-    },
-    {
-      id: 12,
-      category: "Termogênicos",
-      description: "Fórmula avançada para intensificar a queima de gordura durante o treino.",
-      price: 54.99,
-      title: "FireStarter Intense Burner",
-      image: "/src/assets/proteina.jpg",
-      listImages: [
-        "/src/assets/termogenico.webp",
-        "/src/assets/termogenico.webp",
-      "/src/assets/termogenico.webp",
-      "/src/assets/termogenico.webp",
-      ],
-    },
-    {
-      id: 13,
-      category: "Termogênicos",
-      description: "Suplemento termogênico em cápsulas para energia extra nos treinos.",
-      price: 59.99,
-      title: "PowerPulse Caps",
-      image: "/src/assets/proteina.jpg",
-      listImages: [
-        "/src/assets/termogenico.webp",
-        "/src/assets/termogenico.webp",
-      "/src/assets/termogenico.webp",
-      "/src/assets/termogenico.webp",
-      ],
-    },
-    {
-      id: 14,
-      category: "Termogênicos",
-      description: "Fórmula termogênica com chá verde e cafeína natural.",
-      price: 49.99,
-      title: "GreenEnergy Fat Burner",
-      image: "/src/assets/proteina.jpg",
-      listImages: [
-        "/src/assets/termogenico.webp",
-        "/src/assets/termogenico.webp",
-      "/src/assets/termogenico.webp",
-      "/src/assets/termogenico.webp",
+        "/src/assets/proteina.jpg",
       ],
     },
     {
@@ -206,10 +164,10 @@ const products = [
       title: "HotShot Metabolic Igniter",
       image: "/src/assets/proteina.jpg",
       listImages: [
+        "/src/assets/proteina.jpg",
+        "/src/assets/c&a.jpg",
         "/src/assets/termogenico.webp",
-        "/src/assets/termogenico.webp",
-      "/src/assets/termogenico.webp",
-      "/src/assets/termogenico.webp",
+        "/src/assets/proteina.jpg",
       ],
     },
     {
@@ -220,10 +178,10 @@ const products = [
       title: "LiquidFire Rapid Burn",
       image: "/src/assets/proteina.jpg",
       listImages: [
+        "/src/assets/proteina.jpg",
+        "/src/assets/c&a.jpg",
         "/src/assets/termogenico.webp",
-        "/src/assets/termogenico.webp",
-      "/src/assets/termogenico.webp",
-      "/src/assets/termogenico.webp",
+        "/src/assets/proteina.jpg",
       ],
     },
     {
@@ -234,10 +192,10 @@ const products = [
       title: "BitterOrange Boost",
       image: "/src/assets/proteina.jpg",
       listImages: [
+        "/src/assets/proteina.jpg",
+        "/src/assets/c&a.jpg",
         "/src/assets/termogenico.webp",
-        "/src/assets/termogenico.webp",
-      "/src/assets/termogenico.webp",
-      "/src/assets/termogenico.webp",
+        "/src/assets/proteina.jpg",
       ],
     },
     {
@@ -248,10 +206,10 @@ const products = [
       title: "BlackTea PowerFuel",
       image: "/src/assets/proteina.jpg",
       listImages: [
+        "/src/assets/proteina.jpg",
+        "/src/assets/c&a.jpg",
         "/src/assets/termogenico.webp",
-        "/src/assets/termogenico.webp",
-      "/src/assets/termogenico.webp",
-      "/src/assets/termogenico.webp",
+        "/src/assets/proteina.jpg",
       ],
     },
     {
@@ -262,10 +220,10 @@ const products = [
       title: "Guarana Energy Booster",
       image: "/src/assets/proteina.jpg",
       listImages: [
+        "/src/assets/proteina.jpg",
+        "/src/assets/c&a.jpg",
         "/src/assets/termogenico.webp",
-        "/src/assets/termogenico.webp",
-      "/src/assets/termogenico.webp",
-      "/src/assets/termogenico.webp",
+        "/src/assets/proteina.jpg",
       ],
     },
     {
@@ -276,10 +234,10 @@ const products = [
       title: "CayenneBurn Ignition",
       image: "/src/assets/proteina.jpg",
       listImages: [
+        "/src/assets/proteina.jpg",
+        "/src/assets/c&a.jpg",
         "/src/assets/termogenico.webp",
-        "/src/assets/termogenico.webp",
-      "/src/assets/termogenico.webp",
-      "/src/assets/termogenico.webp",
+        "/src/assets/proteina.jpg",
       ],
     },
   
@@ -292,10 +250,10 @@ const products = [
       title: "Elite Performance Tee",
       image: "/src/assets/proteina.jpg",
       listImages: [
+        "/src/assets/proteina.jpg",
         "/src/assets/c&a.jpg",
-      "/src/assets/c&a.jpg",
-      "/src/assets/c&a.jpg",
-      "/src/assets/c&a.jpg",
+        "/src/assets/termogenico.webp",
+        "/src/assets/proteina.jpg",
       ],
     },
     {
@@ -306,10 +264,10 @@ const products = [
       title: "FlexFit Sports Leggings",
       image: "/src/assets/proteina.jpg",
       listImages: [
+        "/src/assets/proteina.jpg",
         "/src/assets/c&a.jpg",
-      "/src/assets/c&a.jpg",
-      "/src/assets/c&a.jpg",
-      "/src/assets/c&a.jpg",
+        "/src/assets/termogenico.webp",
+        "/src/assets/proteina.jpg",
       ],
     },
     {
@@ -320,10 +278,10 @@ const products = [
       title: "SpeedRunner Pro Shoes",
       image: "/src/assets/proteina.jpg",
       listImages: [
+        "/src/assets/proteina.jpg",
         "/src/assets/c&a.jpg",
-      "/src/assets/c&a.jpg",
-      "/src/assets/c&a.jpg",
-      "/src/assets/c&a.jpg",
+        "/src/assets/termogenico.webp",
+        "/src/assets/proteina.jpg",
       ],
     },
     {
@@ -334,10 +292,10 @@ const products = [
       title: "SportGear Duffel Bag",
       image: "/src/assets/proteina.jpg",
       listImages: [
+        "/src/assets/proteina.jpg",
         "/src/assets/c&a.jpg",
-      "/src/assets/c&a.jpg",
-      "/src/assets/c&a.jpg",
-      "/src/assets/c&a.jpg",
+        "/src/assets/termogenico.webp",
+        "/src/assets/proteina.jpg",
       ],
     },
     {
@@ -348,10 +306,10 @@ const products = [
       title: "Ultimate Comfort Socks",
       image: "/src/assets/proteina.jpg",
       listImages: [
+        "/src/assets/proteina.jpg",
         "/src/assets/c&a.jpg",
-      "/src/assets/c&a.jpg",
-      "/src/assets/c&a.jpg",
-      "/src/assets/c&a.jpg",
+        "/src/assets/termogenico.webp",
+        "/src/assets/proteina.jpg",
       ],
     },
     {
@@ -362,10 +320,10 @@ const products = [
       title: "SunGuard Sport Cap",
       image: "/src/assets/proteina.jpg",
       listImages: [
+        "/src/assets/proteina.jpg",
         "/src/assets/c&a.jpg",
-      "/src/assets/c&a.jpg",
-      "/src/assets/c&a.jpg",
-      "/src/assets/c&a.jpg",
+        "/src/assets/termogenico.webp",
+        "/src/assets/proteina.jpg",
       ],
     },
     {
@@ -376,10 +334,10 @@ const products = [
       title: "PowerLift Training Gloves",
       image: "/src/assets/proteina.jpg",
       listImages: [
+        "/src/assets/proteina.jpg",
         "/src/assets/c&a.jpg",
-      "/src/assets/c&a.jpg",
-      "/src/assets/c&a.jpg",
-      "/src/assets/c&a.jpg",
+        "/src/assets/termogenico.webp",
+        "/src/assets/proteina.jpg",
       ],
     },
     {
@@ -390,10 +348,10 @@ const products = [
       title: "CompressionFit Performance Shirt",
       image: "/src/assets/proteina.jpg",
       listImages: [
+        "/src/assets/proteina.jpg",
         "/src/assets/c&a.jpg",
-      "/src/assets/c&a.jpg",
-      "/src/assets/c&a.jpg",
-      "/src/assets/c&a.jpg",
+        "/src/assets/termogenico.webp",
+        "/src/assets/proteina.jpg",
       ],
     },
     {
@@ -404,26 +362,13 @@ const products = [
       title: "StayPut Headband",
       image: "/src/assets/proteina.jpg",
       listImages: [
+        "/src/assets/proteina.jpg",
         "/src/assets/c&a.jpg",
-      "/src/assets/c&a.jpg",
-      "/src/assets/c&a.jpg",
-      "/src/assets/c&a.jpg",
+        "/src/assets/termogenico.webp",
+        "/src/assets/proteina.jpg",
       ],
     },
-    {
-      id: 30,
-      category: "Roupas e acessorios",
-      description: "Mochila esportiva multifuncional para aventuras ao ar livre.",
-      price: 59.99,
-      title: "AdventureTech Backpack",
-      image: "/src/assets/proteina.jpg",
-      listImages: [
-        "/src/assets/c&a.jpg",
-      "/src/assets/c&a.jpg",
-      "/src/assets/c&a.jpg",
-      "/src/assets/c&a.jpg",
-      ],
-    },
+    
   ];
   
   export default products;
