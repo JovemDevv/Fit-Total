@@ -18,7 +18,7 @@ function Products() {
       const filterArray = products.filter(
         (item) => item.category === categories
         )
-      const filterCategory = categories.find((item) => item.url === categories)
+      const filterCategory = products.find((item) => item.url === categories)
       setCategoryData(filterCategory)
       setProductsData(filterArray);
     }
