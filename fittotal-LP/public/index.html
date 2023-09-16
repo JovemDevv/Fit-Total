@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Essa é a academia para sua meta!">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <meta name="keywords" content="Academia, FitiTotal, Estilo de vida">
+    <meta name="author" content="Ana Caroline Vasconcellos">
+    <link rel="icon" type="image/ico" sizes="32x32" href="./assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+     crossorigin=""/>
+    <title>FitTotal | Home</title>
+</head>
+<body>
+
+    <header>
+        <nav class="navegador">
+            <img src="./assets/logo.png" alt="Logo da página">
+            <ul>
+                <li>
+                    <a href="#inicio">Inicio</a>
+                </li>
+                <li>
+                    <a href="#beneficios" >Benefícios</a>
+                </li>
+                <li>
+                    <a href="#testimonial" >Clientes</a>
+                </li>
+                <li>
+                    <a href="#conheca">Sobre a academia</a></li>
+                <li>
+                    <a href="#contato">Contato</a>
+                </li>
+                <li><button>Entrar</button></li>
+            </ul>
+            <div class="menu">
+                &#9776;
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="background"></div>
+        <aside>
+            <ul>
+                <li>
+                    <a href="#inicio">Inicio</a>
+                </li>
+                <li>
+                    <a href="#beneficios" >Benefícios</a>
+                </li>
+                <li>
+                    <a href="#testimonial" >Clientes</a>
+                </li>
+                <li>
+                    <a href="#conheca">Sobre a academia</a></li>
+                <li>
+                    <a href="#contato">Contato</a>
+                </li>
+                <li class="buttonSidebar">
+                    <a href="" >Entrar</a>
+                </li>
+            </ul>
+        </aside>
+        <section class="inicio" id="inicio">
+            <div class="text-content">
+                
+                <h1>Bem-vindo a FitTotal</h1>
+                <h3>Essa é a academia para você!</h3>
+                <a href="#conheca"><button>Conheça a academia</button></a>
+            </div>
+        </section>
+        <section class="beneficios" id="beneficios">
+            <div class="container">
+            <h2 >Benefícios</h2>
+                <div class="item">
+                    <div class="item-photo">
+                        <img class="imgItem" src="./assets/beneficio1.jpg" alt="conheça seu corpo" />
+                        </div>
+                        <div class="item-text"> 
+                            <h3>Conheça seu corpo</h3>
+                
+                                <p>Entendendo seus limites e pontos fortes. Nossos instrutores ajudam a personalizar treinos para resultados eficazes e seguros. Venha conhecer sua jornada de fitness conosco!</p>
+                        </div>
+                    </div>
+                
+                <div class="item2">
+                    
+                    <div class="item-photo2">
+                        
+                        <img class="imgItem2" src="./assets/beneficio2.jpg" alt="tenha mais saude">
+                    </div>
+                    <div class="item-text"> 
+                        <h3>Tenha mais saúde</h3>
+                    
+                                <p>Em nossa academia, você encontra o apoio necessário para alcançar um estilo de vida mais saudável. Com   orientação profissional e uma variedade de recursos, estamos aqui para ajudar você a atingir seus objetivos de bem-estar. Venha priorizar a sua saúde conosco!</p>
+                    </div>
+            
+                </div>
+
+                <div class="item">
+                    <div class="item-photo">
+                        <img class="imgItem" src="./assets/beneficio3.jpg" alt="mente livre">
+                        </div>
+                        <div class="item-text"> 
+                        <h3>Mente livre</h3>
+                            
+                                <p>Na nossa academia, não apenas fortalecemos o corpo, mas também incentivamos uma mente livre por meio do exercício. Liberte-se do estresse, encontre clareza e equilíbrio, enquanto trabalha para uma versão mais saudável de si mesmo. Junte-se a nós para nutrir tanto o corpo quanto a mente.</p>
+                </div>
+            </div>
+        </div>
+        </section>
+
+        <section class="clients" id="testimonial">
+            <div class="container">
+                <div class="left">
+                  <div class="text">
+                    <h2>História dos nossos clientes</h2>
+                    <p>Fique inspirado e mude seu corpo</p>
+                  </div>
+                  
+                  <div class="containerCards">
+                    <div class="left">
+                      <div class="card vertical">
+                        <h3>3kg perdidos!</h3>
+                        <div class="cardContent">
+                       
+                        <q>Com a orientação cuidadosa dos instrutores e o apoio da comunidade, perdi 3kg em apenas um mês! Cada treino foi uma vitória, e estou mais próximo dos meus objetivos mais do que nunca. 
+                        </q>
+                        <div class="person">
+                          <img class="img" src="./assets/matheus.jpg" alt="cliente" />
+                          <div class="text-content">
+                            <h4>Matheus</h4>
+                            <span>Empresário</span>
+                          </div>
+                        </div>
+                    </div>
+                      </div>
+                    </div>
+              
+                  <div class="right">
+                    <div class="card hotizontal">
+                      <h3>20kg perdidos!</h3>
+                      <div class="cardContent">
+                      <q>Estou feliz em compartilhar minha incrível conquista. Ao longo do meu compromisso com a academia, consegui perder incríveis 20kg! Com persistência, apoio da equipe e um plano de treinamento personalizado, alcancei um marco que nunca imaginei possível.</q>
+                      <div class="person">
+                        <img class="img" src="./assets/rafael.jpg" alt="cliente" />
+                        <div class="text-content">
+                          <h4>Rafael</h4>
+                          <span>Pai de 3 filhos</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                    <div class="card retangular">
+                      <h3>13kg perdidos!</h3>
+                      <div class="cardContent">
+                      <q> Com determinação, e um plano de treinamento adaptado perdi 13kg!</q>
+                      <div class="person">
+                        <img class="img" src="./assets/raquel.jpg" alt="cliente" />
+                        <div class="text-content">
+                          <h4>Raquel</h4>
+                          <span>Contadora</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </section>
+          
+
+        <section id="conheca" class="conheca">
+            <div class="container">
+                <div class="text-content">
+                    <h2>Conheça nossa academia</h2>
+                        <p>Veja nossa localização, dias e horarios.</p>
+                </div>
+            <div class="cards">
+                <div class="card">
+                    <div class="cardContent">
+                        <img src="./assets/🦆 icon _calendar_.svg" alt="calendario">
+                            <h3>De segunda a sábado</h3>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="cardContent">
+                        <img src="./assets/🦆 icon _clock_.svg" alt="calendario">
+                            <h3>Das 6h até as 23h
+                                e sabado até as 12h
+                            </h3>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="cardContent">
+                        <img src="./assets/🦆 icon _library building_.svg" alt="calendario">
+                            <h3>Primeira aula grátis</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="fotos" class="fotos">
+            <div class="container">
+                <div class="text-content">
+                    <h2>Fotos academia</h2>
+                </div>
+                <div class="listPhotos">
+                    <img class="gymPhoto"
+                        src="./assets/gym.jpg"
+                        alt="foto de academia" 
+                    />
+                    <img class="gymPhoto"
+                        src="./assets/gym2.jpg"
+                        alt="foto de academia" 
+                    />
+                    <img class="gymPhoto"
+                        src="./assets/gym3.jpg"
+                        alt="foto de academia" 
+                    />
+                </div>
+            </div>
+        </section>
+        
+        <section id="contato" class="contato">
+            <div class="container">
+                <div class="text-content">
+                    <h2>Fale conosco</h2>
+                </div>
+                <form onsubmit="handleSubmit(event)">
+                    <div class="row">
+                        <div class="input-field">
+                            <label for="name">Nome:</label>
+                            <input id="name" name="name" placeholder="Seu nome..." 
+                            type="text"
+                             />
+                            <span id="name-error" class="error"></span>
+                        </div>
+                        <div class="input-field">
+                            <label for="lastName">Sobrenome:</label>
+                            <input id="lastName" name="lastName" placeholder="Seu sobrenome..."
+                            type="text"
+                             />
+                            <span id="lastName-error" class="error"></span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field">
+                            <label for="email">Email:</label>
+                            <input id="email" name="email" placeholder="Seu email..."
+                            type="email"
+                             />
+                            <span id="email-error" class="error"></span>
+                        </div>
+                        <div class="input-field">
+                            <label for="phone">Telefone:</label>
+                            <input id="phone" name="phone" maxlength="15" placeholder="(xx) x xxxx-xxxx"
+                            
+                            type="text"
+                            oninput="formatarTelefone(this)">
+                            <span id="phone-error" class="error"></span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field">
+                            <label for="message">Sua mensagem:</label>
+                            <textarea name="message" id="message"  rows="8" placeholder="Escreva sua mensagem..." 
+                            type="text"
+                            ></textarea>
+                        </div>
+                    </div>
+                    <div class="buttonForm">
+                        <button type="submit" id="submitButton">Enviar mensagem</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <section class="adressMap">
+            <div class="container">
+                <h2>localização</h2>
+            </div>
+            <div class="mapFlex">
+            <div id="map"></div>
+        </div>
+        </section>
+    </main>
+    <footer>
+        <div class="rowFooter">
+            <div class="logoFooter">
+                <img src="./assets/logo.png" alt="logo" />
+            </div>
+            <div class="footerContent">
+
+                <div class="links">
+                    <h3>Links</h3>
+                        <ul>
+                            <li>
+                                <a href="#inicio">Inicio</a>
+                            </li>
+                            <li>
+                                <a href="#beneficios" >Benefícios</a>
+                            </li>
+                            <li>
+                                <a href="#testimonial" >Clientes</a>
+                            </li>
+                            <li>
+                                <a href="#conheca">Sobre a academia</a></li>
+                            <li>
+                                <a href="#contato">Contato</a>
+                            </li>
+                            <li>Entrar</li>
+                        </ul>
+                </div>
+                
+                <div class="contatoFooter">
+                    <h3>Nosso contato</h3>
+                    <ul>
+                        <li>
+                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                            contato@fittotal.com
+                        </li>
+                        <li>
+                            <i class="fa fa-phone-square" aria-hidden="true"></i>
+                            (99) 9 9999-9999
+                        </li>
+                        <li>
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                            Rio de Janeiro, RJ
+                        </li>
+                    </ul>
+                    <ul class="socialMedia">
+                        <li>
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                        </li>
+                        <li>
+                            <i class="fa fa-facebook-official" aria-hidden="true"></i> 
+                        </li>
+                        <li>
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <script src="./script/main.js"></script>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin=""></script>
+     <script src="./script/adressMap.js"></script>
+</body>
+</html>
