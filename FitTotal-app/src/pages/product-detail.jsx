@@ -50,12 +50,12 @@ function ProductDetail() {
           <Grid container>
           <Grid item xs={10} md={1} sm={12} order={{xs:3, sm:3, md:1}}>
             <Grid container>
-                <Grid
-                    xs={4} 
-                    sm={4} 
-                    md={12} 
-                    order={{xs:2, sm:2, md:1 }}
-                >
+            <Grid item 
+              xs={4} 
+              sm={4} 
+              md={12} 
+              >
+              
                     <Grid container>
                     {productData?.listImages.map((item, index) => (
                 <Grid item 
@@ -85,7 +85,7 @@ function ProductDetail() {
             </Grid>
             </Grid>
 
-            <Grid item  sm={10} xs={6} md={6} order={{xs:2, sm:2, md:2}}>
+            <Grid item  sm={10} xs={6} md={6} order={{xs:2, sm:2, md:2 }}>
               <IconButton onClick={handleShowImage} sx={{ width: "100%", height: "auto" }}>
                 <img
                   src={imageShow}
